@@ -19,7 +19,7 @@ price_quantity={
 
 total_price=0
 
-#start user input part
+
 
 user_select=None
 while user_select!="0":
@@ -37,5 +37,5 @@ while user_select!="0":
     for key,value in available_parts.items():
       print(f"{key}: {value}")
     print("0: to finish")
-  user_select=input("> ")
+  user_select=input("> ")#start user input part
 print(f"Total price is: {total_price}")
